@@ -10,13 +10,18 @@
 
 @implementation AppDelegate
 
+NSStatusItem *statusItem;
+
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize managedObjectContext = _managedObjectContext;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-  // Insert code here to initialize your application
+  NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
+  statusItem = [statusBar statusItemWithLength:NSVariableStatusItemLength];
+  //[statusItem retain];
+  [statusItem setImage:[NSImage imageNamed:@"Icon1.png"]];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "hckr.selfish" in the user's Application Support directory.

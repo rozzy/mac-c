@@ -19,6 +19,7 @@
 		E7DBA45A184B3C3F00C3B0B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DBA436184B3C3F00C3B0B8 /* Cocoa.framework */; };
 		E7DBA462184B3C3F00C3B0B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7DBA460184B3C3F00C3B0B8 /* InfoPlist.strings */; };
 		E7DBA464184B3C3F00C3B0B8 /* selfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DBA463184B3C3F00C3B0B8 /* selfishTests.m */; };
+		E7DBA46E184B467B00C3B0B8 /* Icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = E7DBA46D184B467B00C3B0B8 /* Icon1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		E7DBA45F184B3C3F00C3B0B8 /* selfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "selfishTests-Info.plist"; sourceTree = "<group>"; };
 		E7DBA461184B3C3F00C3B0B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7DBA463184B3C3F00C3B0B8 /* selfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = selfishTests.m; sourceTree = "<group>"; };
+		E7DBA46D184B467B00C3B0B8 /* Icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon1.png; path = ../../../../Desktop/Icon1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		E7DBA43C184B3C3F00C3B0B8 /* selfish */ = {
 			isa = PBXGroup;
 			children = (
+				E7DBA46D184B467B00C3B0B8 /* Icon1.png */,
 				E7DBA448184B3C3F00C3B0B8 /* AppDelegate.h */,
 				E7DBA449184B3C3F00C3B0B8 /* AppDelegate.m */,
 				E7DBA44B184B3C3F00C3B0B8 /* MainMenu.xib */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7DBA46E184B467B00C3B0B8 /* Icon1.png in Resources */,
 				E7DBA441184B3C3F00C3B0B8 /* InfoPlist.strings in Resources */,
 				E7DBA452184B3C3F00C3B0B8 /* Images.xcassets in Resources */,
 				E7DBA447184B3C3F00C3B0B8 /* Credits.rtf in Resources */,
